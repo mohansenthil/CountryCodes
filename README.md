@@ -21,3 +21,9 @@ using CountryCodes;
 Console.WriteLine($"USA's Two Letter Country Code is {TwoLetterISORegionCode.UnitedStates}");
 Console.WriteLine($"India's Three letter Country Code is {ThreeLetterISORegionCode.India}");
 ```
+
+## Output
+```console
+USA's Two Letter Country Code is US
+India's Three letter Country Code is IND
+```
