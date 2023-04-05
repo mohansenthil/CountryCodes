@@ -1,7 +1,6 @@
 # Country Codes Library
 
-The Country Codes Library provides a collection of two-letter and three-letter country codes according to the ISO 3166-1 standard. 
-This library targets .NET Core 3.1
+The Country Codes Library provides a collection of two-letter and three-letter country codes according to the ISO 3166-1 standard.
 
 ## Installation
 

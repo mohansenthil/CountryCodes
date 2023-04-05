@@ -1,15 +1,34 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFrameworks>netcoreapp3.1;netstandard2.0;net472</TargetFrameworks>    
     <PackageId>CountryCodesLib</PackageId>
     <Title>Country Codes Utility</Title>
     <Authors>Mohan Raj Senthilnathan</Authors>
-    <Description>The Country Codes Library is a distributable library that provides a comprehensive list of two-letter and three-letter country codes in accordance with the ISO 3166-1 standard. The data in this library has been collected from reliable sources and is regularly updated to ensure accuracy.</Description>
+    <Description>
+      The Country Codes Library provides a collection of two-letter and three-letter country codes according to the ISO 3166-1 standard.
+    </Description>
     <RepositoryUrl>https://github.com/mohansenthil/CountryCodes</RepositoryUrl>
     <Copyright>none</Copyright>
     <PackageTags>twolettercountrycode;countrycode;threelettercountrycode</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageIcon>icon-countrycodelb.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <Version>1.0.3</Version>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="icon-countrycodelb.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
