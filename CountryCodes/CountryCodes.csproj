@@ -5,12 +5,11 @@
     <PackageId>CountryCodesLib</PackageId>
     <Title>Country Codes Utility</Title>
     <Authors>Mohan Raj Senthilnathan</Authors>
-    <Description>
-      The Country Codes Library provides a collection of two-letter and three-letter country codes according to the ISO 3166-1 standard.
-    </Description>
+    <Description>It provides a collection of two-letter and three-letter country codes according to the ISO 3166-1 standard.
+Additonally it provides USA state code. </Description>
     <RepositoryUrl>https://github.com/mohansenthil/CountryCodes</RepositoryUrl>
     <Copyright>none</Copyright>
-    <PackageTags>twolettercountrycode;countrycode;threelettercountrycode</PackageTags>
+    <PackageTags>twolettercountrycode;countrycode;threelettercountrycode;USAStateCode;+2digitcode;ISO-3166;country-codes;geography;</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageIcon>icon-countrycodelb.png</PackageIcon>
     <PackageReadmeFile>README.md</PackageReadmeFile>
