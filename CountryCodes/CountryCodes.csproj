@@ -9,11 +9,11 @@
 Additionaly it provides USA state codes and Canada Province codes</Description>
     <RepositoryUrl>https://github.com/mohansenthil/CountryCodes</RepositoryUrl>
     <Copyright>none</Copyright>
-    <PackageTags>twolettercountrycode;countrycode;threelettercountrycode;USAStateCode;+2digitcode;ISO-3166;country-codes;geography;canadaprovince</PackageTags>
+    <PackageTags>two digit country code;three digit country code;twolettercountrycode;countrycode;threelettercountrycode;USAStateCode;+2digitcode;+3digitcode;ISO-3166;country-codes;geography;canadaprovince;chinaprovince;proviencecode;proviene;geocode;countrycodes</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageIcon>icon-countrycodelb.png</PackageIcon>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <Version>1.0.4</Version>
+    <Version>1.0.5</Version>
   </PropertyGroup>
 
   <ItemGroup>
