@@ -82,4 +82,4 @@ jobs:
       
      # Build Dotnet Application
     - name: Build
-      run : dotnet build --configuration $env:Configuration $env:Solution_Name
+      run : dotnet build $env:Solution_Name /p:Configuration=$env:Configuration
