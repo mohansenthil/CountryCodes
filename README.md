@@ -2,7 +2,7 @@
 
 The Country Code Library provides a collection of two-letter and three-letter country codes according to the ISO 3166-1 standard,
 as well as it provides USA, China and Canada Province codes (State codes / adminstrative division codes).
-In addition, it includes telephone calling codes for countries across the world. 
+In addition, it includes telephone calling codes, currency codes, currency Symbols for countries across the world. 
 
 This library can be accessed with ease through static fields by any .NET framework.
 
@@ -34,6 +34,9 @@ Console.WriteLine($"Alabama's Two letter State code is {USAStateCode.Alabama}");
 Console.WriteLine($"Ontario's Two letter Province code is {CanadaProvinceCode.Ontario}");
 Console.WriteLine($"Beijing's Two letter Province code is {ChinaProvinceCode.Beijing}");
 
+Console.WriteLine($"Bangladesh Currency Code {CountryCurrencyCodes.Bangladesh}");
+Console.WriteLine($"Japan Currency Symbol {CountryCurrencySymbols.Japan}");
+
 ```
 
 ## Output
@@ -44,4 +47,6 @@ Germany's Telephone Code is +49
 Alabama's Two letter State code is AL
 Ontario's Two letter Province code is ON
 Beijing's Two letter Province code is BJ
+Bangladesh Currency Code BDT
+Japan Currency Symbol ¥
 ```

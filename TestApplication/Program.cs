@@ -18,6 +18,9 @@ namespace TestApplication
             Console.WriteLine($"Alabama's Two letter State code is {USAStateCode.Alabama}");
             Console.WriteLine($"Ontario's Two letter Province code is {CanadaProvinceCode.Ontario}");
             Console.WriteLine($"Beijing's Two letter Province code is {ChinaProvinceCode.Beijing}");
+
+            Console.WriteLine($"Bangladesh Currency Code {CountryCurrencyCodes.Bangladesh}");
+            Console.WriteLine($"Japan Currency Symbol {CountryCurrencySymbols.Japan}");
         }
     }
 }
